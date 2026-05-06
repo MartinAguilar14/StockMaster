@@ -1,0 +1,111 @@
+﻿@model StockMaster.Models.Ordenes
+
+<h2>Crear Orden</h2>
+
+<form asp-action="Create">
+
+    <div class="form-group">
+        <label>Producto</label>
+        <select id="productoId" class="form-control">
+            @foreach (var p in ViewBag.Productos)
+            {
+                <option value="@p.Id" data-stock="@p.Stock">
+                    @p.Nombre (Stock: @p.Stock)
+                </option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Cantidad</label>
+        <input type="number" id="cantidad" class="form-control" />
+    </div>
+
+    <br />
+
+    <button type="button" class="btn btn-outline-success" onclick="event.preventDefault(); agregarProducto();">
+        Agregar
+    </button>
+
+    <table class="table mt-3">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+            </tr>
+        </thead>
+        <tbody id="detalle"></tbody>
+    </table>
+
+    <a asp-action="Index" class="btn btn-outline-secondary">Cancelar</a>
+    <input type="submit" value="Guardar" class="btn btn-outline-primary" />
+</form>
+
+<script>
+    let index = 0;
+
+    function agregarProducto() {
+        let producto = document.getElementById("productoId");
+        let selected = producto.options[producto.selectedIndex];
+
+        let productoId = producto.value;
+        let productoNombre = selected.text;
+        let stock = parseInt(selected.getAttribute("data-stock"));
+        let cantidad = parseInt(document.getElementById("cantidad").value);
+
+        if (!cantidad || cantidad <= 0) {
+            alert("La cantidad debe ser mayor a 0");
+            return;
+        }
+
+        let filas = document.querySelectorAll("#detalle tr");
+
+        let existe = false;
+
+        filas.forEach(fila => {
+            let inputProducto = fila.querySelector('input[name^="productoId"]');
+
+            if (inputProducto && inputProducto.value == productoId) {
+                let inputCantidad = fila.querySelector('input[name^="cantidad"]');
+                let cantidadActual = parseInt(inputCantidad.value);
+
+                let nuevaCantidad = cantidadActual + cantidad;
+
+                if (nuevaCantidad > stock) {
+                    alert(`Stock insuficiente. Disponible: ${stock - cantidadActual}`);
+                    existe = true;
+                    return;
+                }
+
+                inputCantidad.value = nuevaCantidad;
+                fila.children[1].innerText = nuevaCantidad;
+
+                existe = true;
+            }
+        });
+
+        if (!existe) {
+
+            if (cantidad > stock) {
+                alert("No hay suficiente stock disponible");
+                return;
+            }
+
+            let fila = `<tr>
+                            <td>${productoNombre}</td>
+                            <td>${cantidad}</td>
+
+                            <td style="display:none;">
+                                <input type="hidden" name="productoId[${index}]" value="${productoId}" />
+                                <input type="hidden" name="cantidad[${index}]" value="${cantidad}" />
+                            </td>
+                        </tr>`;
+
+            document.getElementById("detalle").innerHTML += fila;
+
+            index++;
+        }
+
+        document.getElementById("cantidad").value = "";
+    }
+</script>

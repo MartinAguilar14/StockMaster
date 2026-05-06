@@ -1,0 +1,64 @@
+﻿@model StockMaster.Models.Ordenes
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Detalles de la orden</h2>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Folio)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Folio)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Fecha)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Fecha)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Total)
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Total.ToString("C")
+        </dd>
+
+    </dl>
+
+    <h4>Productos</h4>
+
+    <a asp-action="Pdf" asp-route-id="@Model.Id" class="btn btn-danger">
+        Descargar PDF
+    </a>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Detalles)
+            {
+                <tr>
+                    <td>@item.Producto.Nombre</td>
+                    <td>@item.Cantidad</td>
+                    <td>@item.PrecioUnitario.ToString("C")</td>
+                    <td>@((item.Cantidad * item.PrecioUnitario).ToString("C"))</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="mt-3 d-flex gap-2">
+    <a asp-action="Index" class="btn btn-outline-secondary">Volver</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-outline-primary">Editar</a>
+</div>

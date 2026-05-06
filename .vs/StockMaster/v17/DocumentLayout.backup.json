@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Martin Aguilar\\Documents\\PruebasTecnicaINSEJUPY\\StockMaster\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCCD6121-4A1F-4310-AE75-2B502F20535C}|StockMaster\\StockMaster.csproj|c:\\users\\martin aguilar\\documents\\pruebastecnicainsejupy\\stockmaster\\stockmaster\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCCD6121-4A1F-4310-AE75-2B502F20535C}|StockMaster\\StockMaster.csproj|solutionrelative:stockmaster\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCCD6121-4A1F-4310-AE75-2B502F20535C}|StockMaster\\StockMaster.csproj|c:\\users\\martin aguilar\\documents\\pruebastecnicainsejupy\\stockmaster\\stockmaster\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CCCD6121-4A1F-4310-AE75-2B502F20535C}|StockMaster\\StockMaster.csproj|solutionrelative:stockmaster\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCCD6121-4A1F-4310-AE75-2B502F20535C}|StockMaster\\StockMaster.csproj|c:\\users\\martin aguilar\\documents\\pruebastecnicainsejupy\\stockmaster\\stockmaster\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCCD6121-4A1F-4310-AE75-2B502F20535C}|StockMaster\\StockMaster.csproj|solutionrelative:stockmaster\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCCD6121-4A1F-4310-AE75-2B502F20535C}|StockMaster\\StockMaster.csproj|c:\\users\\martin aguilar\\documents\\pruebastecnicainsejupy\\stockmaster\\stockmaster\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCCD6121-4A1F-4310-AE75-2B502F20535C}|StockMaster\\StockMaster.csproj|solutionrelative:stockmaster\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCCD6121-4A1F-4310-AE75-2B502F20535C}|StockMaster\\StockMaster.csproj|c:\\users\\martin aguilar\\documents\\pruebastecnicainsejupy\\stockmaster\\stockmaster\\views\\ordenes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCCD6121-4A1F-4310-AE75-2B502F20535C}|StockMaster\\StockMaster.csproj|solutionrelative:stockmaster\\views\\ordenes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCCD6121-4A1F-4310-AE75-2B502F20535C}|StockMaster\\StockMaster.csproj|c:\\users\\martin aguilar\\documents\\pruebastecnicainsejupy\\stockmaster\\stockmaster\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCCD6121-4A1F-4310-AE75-2B502F20535C}|StockMaster\\StockMaster.csproj|solutionrelative:stockmaster\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCCD6121-4A1F-4310-AE75-2B502F20535C}|StockMaster\\StockMaster.csproj|c:\\users\\martin aguilar\\documents\\pruebastecnicainsejupy\\stockmaster\\stockmaster\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCCD6121-4A1F-4310-AE75-2B502F20535C}|StockMaster\\StockMaster.csproj|solutionrelative:stockmaster\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 296,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Martin Aguilar\\Documents\\PruebasTecnicaINSEJUPY\\StockMaster\\StockMaster\\Program.cs",
+              "RelativeDocumentMoniker": "StockMaster\\Program.cs",
+              "ToolTip": "C:\\Users\\Martin Aguilar\\Documents\\PruebasTecnicaINSEJUPY\\StockMaster\\StockMaster\\Program.cs",
+              "RelativeToolTip": "StockMaster\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T21:08:51.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Martin Aguilar\\Documents\\PruebasTecnicaINSEJUPY\\StockMaster\\StockMaster\\appsettings.json",
+              "RelativeDocumentMoniker": "StockMaster\\appsettings.json",
+              "ToolTip": "C:\\Users\\Martin Aguilar\\Documents\\PruebasTecnicaINSEJUPY\\StockMaster\\StockMaster\\appsettings.json",
+              "RelativeToolTip": "StockMaster\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-06T21:05:17.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Martin Aguilar\\Documents\\PruebasTecnicaINSEJUPY\\StockMaster\\StockMaster\\Views\\Productos\\Index.cshtml",
+              "RelativeDocumentMoniker": "StockMaster\\Views\\Productos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Martin Aguilar\\Documents\\PruebasTecnicaINSEJUPY\\StockMaster\\StockMaster\\Views\\Productos\\Index.cshtml",
+              "RelativeToolTip": "StockMaster\\Views\\Productos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T21:02:20.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\Martin Aguilar\\Documents\\PruebasTecnicaINSEJUPY\\StockMaster\\StockMaster\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "StockMaster\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\Martin Aguilar\\Documents\\PruebasTecnicaINSEJUPY\\StockMaster\\StockMaster\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "StockMaster\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T21:01:08.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Martin Aguilar\\Documents\\PruebasTecnicaINSEJUPY\\StockMaster\\StockMaster\\Views\\Ordenes\\Create.cshtml",
+              "RelativeDocumentMoniker": "StockMaster\\Views\\Ordenes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Martin Aguilar\\Documents\\PruebasTecnicaINSEJUPY\\StockMaster\\StockMaster\\Views\\Ordenes\\Create.cshtml",
+              "RelativeToolTip": "StockMaster\\Views\\Ordenes\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T20:52:48.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Martin Aguilar\\Documents\\PruebasTecnicaINSEJUPY\\StockMaster\\StockMaster\\Views\\Productos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "StockMaster\\Views\\Productos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Martin Aguilar\\Documents\\PruebasTecnicaINSEJUPY\\StockMaster\\StockMaster\\Views\\Productos\\Delete.cshtml",
+              "RelativeToolTip": "StockMaster\\Views\\Productos\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T20:52:08.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Martin Aguilar\\Documents\\PruebasTecnicaINSEJUPY\\StockMaster\\StockMaster\\Views\\Productos\\Create.cshtml",
+              "RelativeDocumentMoniker": "StockMaster\\Views\\Productos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Martin Aguilar\\Documents\\PruebasTecnicaINSEJUPY\\StockMaster\\StockMaster\\Views\\Productos\\Create.cshtml",
+              "RelativeToolTip": "StockMaster\\Views\\Productos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T20:51:16.893Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

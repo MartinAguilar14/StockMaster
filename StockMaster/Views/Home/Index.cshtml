@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="text-center mb-4">
+    <h1 class="display-5 fw-bold">Sistema de Inventario</h1>
+    <p class="text-muted">Gestiona categorías, productos y pedidos de forma sencilla</p>
+</div>
+
+<div class="row text-center">
+
+    <div class="col-md-4 mb-3">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5>Categorías</h5>
+                <p class="text-muted">Administra las categorías de productos</p>
+                <a asp-controller="Categorias" asp-action="Index" class="btn btn-outline-primary">
+                    Ver categorías
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5>Productos</h5>
+                <p class="text-muted">Consulta y gestiona el inventario</p>
+                <a asp-controller="Productos" asp-action="Index" class="btn btn-outline-primary">
+                    Ver productos
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5>Órdenes</h5>
+                <p class="text-muted">Crea y revisa pedidos</p>
+                <a asp-controller="Ordenes" asp-action="Index" class="btn btn-outline-primary">
+                    Ver órdenes
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
