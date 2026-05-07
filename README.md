@@ -49,13 +49,15 @@ Al ejecutar el proyecto:
 
 ## Configuración
 
+La cadena de conexión especificada funciona si se tiene instalado SQL Server LocalDB o SQL Server en el ambiente.
+
 Opcionalmente, puedes modificar la cadena de conexión en:
 
-'appsettings.json'
+`appsettings.json`
 
 ```json
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=.;Database=db_StockMaster;Trusted_Connection=True;"
+    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=db_StockMaster;Trusted_Connection=True;MultipleActiveResultSets=true"
   }
 }
